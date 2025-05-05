@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') { 
             steps { 
                 git url: 'https://github.com/orbz22/sast-demo-app.git', branch: 
-'master' 
+'main' 
             } 
         } 
         stage('Install Dependencies') { 
